@@ -122,16 +122,6 @@ double func(double x)
 	return x;
 }
 
-void DisplayMatrix(double **matrix, int n)
-{
-	for (int i = 0; i < n; i++)
-	{
-		for (int j = 0; j < n; j++)
-			printf("%10.5f", matrix[i][j]);
-		cout << endl;
-	}
-}
-
 double normaMatix(double** matrix, int n) {
 	double maxsum = 0.0, sum = 0.0;
 	for (int i = 0; i < n; i++)
